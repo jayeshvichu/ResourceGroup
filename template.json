@@ -3,7 +3,7 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "storageAccounts_pipelineteststorage_name": {
-            "defaultValue": "pipelineteststorage",
+            "defaultValue": "pipelineteststorage1",
             "type": "String"
         }
     },
@@ -15,7 +15,7 @@
             "name": "[parameters('storageAccounts_pipelineteststorage_name')]",
             "location": "centralindia",
             "tags": {
-                "PipelineStorage": "Pipeline"
+                "PipelineStorage": "Pipeline1"
             },
             "sku": {
                 "name": "Standard_RAGRS",
